@@ -1,0 +1,1 @@
+{"geometry":{"13331":{"name":"North America"},"13332":{"name":"South America"},"13333":{"name":"Europe"},"13334":{"name":"Asia"},"13335":{"name":"Africa"},"13336":{"name":"Oceania"}}}

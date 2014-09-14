@@ -1,0 +1,106 @@
+[26-Feb-2014 13:40:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:40:34 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:40:34 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUsK4wblMnfHgN...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUsK4wblMnfHgN...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174
+[26-Feb-2014 13:45:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:45:40 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUsK4wblMnfHgN...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUsK4wblMnfHgN...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174
+[26-Feb-2014 13:45:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:45:42 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUsK4wblMnfHgN...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUsK4wblMnfHgN...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174
+[26-Feb-2014 13:45:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:45:44 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUsK4wblMnfHgN...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUsK4wblMnfHgN...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174
+[26-Feb-2014 13:45:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:45:46 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUsK4wblMnfHgN...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUsK4wblMnfHgN...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174
+[26-Feb-2014 13:45:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:45:47 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUsK4wblMnfHgN...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUsK4wblMnfHgN...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174
+[26-Feb-2014 13:45:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:45:48 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUsK4wblMnfHgN...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUsK4wblMnfHgN...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174
+[26-Feb-2014 13:45:49 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:45:49 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUsK4wblMnfHgN...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUsK4wblMnfHgN...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174
+[26-Feb-2014 13:45:49 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:45:49 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUsK4wblMnfHgN...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUsK4wblMnfHgN...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174
+[26-Feb-2014 13:45:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:45:50 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUsK4wblMnfHgN...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUsK4wblMnfHgN...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174
+[26-Feb-2014 13:45:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:45:50 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUsK4wblMnfHgN...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUsK4wblMnfHgN...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174
+[26-Feb-2014 13:45:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:45:52 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUsK4wblMnfHgN...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUsK4wblMnfHgN...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174
+[26-Feb-2014 13:45:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:45:52 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUsK4wblMnfHgN...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUsK4wblMnfHgN...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174
+[26-Feb-2014 13:45:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:45:54 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUsK4wblMnfHgN...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUsK4wblMnfHgN...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174
+[26-Feb-2014 13:48:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/php_ldap.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[26-Feb-2014 13:48:55 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Could not json decode the token' in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php:174
+Stack trace:
+#0 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Client.php(196): Google_Auth_OAuth2->setAccessToken('AQUqU8jOujc4MPI...')
+#1 /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/examples/user-example.php(80): Google_Client->setAccessToken('AQUqU8jOujc4MPI...')
+#2 {main}
+  thrown in /home/networkw/public_html/subdomains/dev/app/webroot/apps/GoogleOAuth/src/Google/Auth/OAuth2.php on line 174

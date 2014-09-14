@@ -1,0 +1,1 @@
+<span class="txt" style="padding-left:38px; float:left;" id="likeDone"><?php echo $countCommentsLike;?></span>

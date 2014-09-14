@@ -1,0 +1,1 @@
+The record has been successfully deleted

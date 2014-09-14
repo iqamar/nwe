@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll;}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px; line-height:18px; 
+	color: #333; text-align:justify; font-weight:normal;
+}
+body,ul {margin:0px; padding:0}
+img{ border:0;}
+.clear{clear:both;}
+a{text-decoration:none;}
+li{list-style:none; padding:2px 0px;}
+
+/* headings */
+h1, h2, h3, h4, h5, h6 {
+	margin:0px; padding:0px; 
+}
+h1 {
+	color:#000; font-size:16px;
+}
+h1 a{
+	color:#000; font-size:16px;
+}
+h1 a:hover{
+	color:#000; font-size:16px;
+}
+
+#header-homepage{width:1000px; max-width: 1000px; margin:0px auto; height:97px;  margin-bottom:10px;}
+#fullheader{width:100%;  background:url(../img/fullheader-bg.jpg) repeat-x; height:97px; border-bottom:1px solid #C6C4C4; margin-bottom:10px;
+position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999; 
+}
+.headercaption{float:right;  margin:30px 0px 0 0;}
+.wrapper{ margin:108px auto 0px auto;
+	width: 100%;	
+	max-width: 1000px;
+}
+a{ color:#C70000;}
+a:hover{ text-decoration:none;}
+a#logo{background:url(../img/networkwe-logo.png) no-repeat; width:314px; height:66px; float:left; margin:15px 0px 0 0;}
+
+/*************** Normal Box Style *****************/
+.box{margin-bottom:15px;}
+.boxheading{padding:6px; background:#000000 url(../img/box-header-bg.jpg) repeat-x; color:#fff; margin-bottom:15px; height:21px; }
+.boxheading-arrow{background:url(../img/box-header-arrow.png) no-repeat center; width:18px; height:20px; position:relative; top:8px; left:0px;}
+.boxheading h1{color:#fff; font-weight:bold;}
+
+
+/************** Login Box Style for Other Networking Websites*****************/
+.lftloginbox{float:left; width:300px;}
+.rgtloginbox{float:right; width:690px;}
+
+/************** Show Data Lisitng Style******************/
+.listing{ background:#EFEFEF; padding:5px; border:1px solid #DFDFDF; margin:12px 0px; text-align:left;}
+.listing-logo{float:left; margin-right:5px; width:70px; height:60px;}
+.listing-logo img{width:70px; height:60px;}
+.listing-rgt{ float:right; width:596px;}
+.listing ul{margin:0px; padding:0px; }
+.listing h1{font-size:13px;}
+.listing h1 a{font-size:13px;}
+.listing li{ padding:0 0 2px 0;}
+.location{color:#c70000;}
+.heading{margin-bottom:5px; padding-bottom:5px;}
+.tabledata-style .headingtd{background:#333333; color:#fff; font-weight:bold;}
+.tabledata-style td{padding:5px 6px;}
+.tabledata-style .headingtd span{margin-left:15px;}
+.tabledata-style input[type="text"]{ width:155px; padding:4px 6px; border:1px solid #CCC; color:#000; font-size:12px; color:#666;}
+.tabledata-style input[type="password"]{ width:155px; padding:4px 6px; border:1px solid #CCC; color:#000; font-size:12px; color:#666;}
+.tabledata-style input[type="submit"]{ background:#C70000; color:#fff; font-weight:bold; padding:2px 12px; border:1px solid #B00314; cursor:pointer;}
+.tabledata-style input[type="submit"]:hover{ background:#000000; border:1px solid #000;}
+
+
+/************** Footer ***************/
+.footer{background:#000; padding:8px; text-align:center; color:#fff;}
+.footer a{color:#B0B0B0; margin:0px 5px;}
+.footer a:hover{color:#fff;}
+/***********Social Networking in Footer ******************/
+.socialnetwork-links{ width:300px; margin:10px auto;}
+.socialnetwork-links ul{ margin:0px; padding:0px;}
+.socialnetwork-links li{ float:left; padding:0px;}
+.transparent-logo a{
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7; margin:0px 1px;
+}
+.transparent-logo a:hover{
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}

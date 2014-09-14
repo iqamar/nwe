@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container_12 .grid_8 {
+    width: 1180px !IMPORTANT;
+	display: inline !IMPORTANT;
+    float: left !IMPORTANT;
+    margin-left: 10px !IMPORTANT;
+    margin-right: 10px !IMPORTANT;
+}
+
+.container_12 .grid_4 {
+    width: 0px !IMPORTANT;
+
+}

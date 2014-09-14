@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll;}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px; line-height:18px; 
+	color: #333; text-align:justify; font-weight:normal;
+}
+body,ul {margin:0px; padding:0}
+img{ border:0;}
+.clear{clear:both;}
+a{text-decoration:none;}
+li{list-style:none; padding:2px 0px;}
+
+/* headings */
+h1, h2, h3, h4, h5, h6 {
+	margin:0px; padding:0px; 
+}
+h1 {
+	color:#000; font-size:16px;
+}
+h1 a{
+	color:#000; font-size:16px;
+}
+h1 a:hover{
+	color:#000; font-size:16px;
+}
+h2 {
+	color:#C70000; font-size:16px;
+}
+h3 {
+	
+}
+h4 {
+	
+}
+h5 {
+	
+}
+h6 {
+	
+}
+
+#header-homepage{width:100%; max-width: 1000px; margin:0px auto; height:50px; padding:15px 0px; margin-bottom:10px;}
+.wrapper{ margin:0px auto 0px auto;
+	width: 100%;	
+	max-width: 1000px;
+}
+a{ color:#C70000;}
+a:hover{ text-decoration:none;}
+a#logo{background:url(../img/networkwe-logo.png) no-repeat; width:314px; height:66px; float:left; }
+.slide-banner{background:#B4B3B3; border:0px solid #B4B3B3; width:690px; float:left; height:334px; 
+}
+/*********** Columns *****************/
+.leftcol{width:690px; float:left;}
+.rgtcol{float:right; width:300px;}
+
+/************* SIGN IN SIGN UP ********/
+.greybox{background:#CCCCCC; padding:6px;  margin-bottom:9px; border:1px solid #C6C4C4;
+}
+.greybox-div-heading{ margin:15px 0px; font-size:18px; color:#000; font-weight:bold;}
+.greybox-div-heading h1{font-size:18px;}
+.box-content{padding:4px;}
+
+/******** Fomr Elements*****************/
+.textfield{padding:8px 6px; border:1px solid #CCC; color:#000; font-size:12px; color:#666;
+}
+.signin-text{ font-size:13px; color:#999999;}
+.droplist{padding:8px 6px; border:1px solid #CCC; color:#000; font-size:12px; color:#666;
+}
+.search-bttn{background:#C70000 url(img/icon-search.png) no-repeat left; color:#fff; font-weight:bold; padding:7px 15px 7px 25px; border:1px solid #B00314; cursor:pointer; margin-top:5px;}
+.search-bttn:hover{ background:#151414 url(img/icon-search.png) no-repeat left; border:1px solid #000;}
+.red-bttn{background:#C70000; color:#fff; font-weight:bold; padding:4px 15px; border:1px solid #B00314; cursor:pointer; margin-top:5px;}
+.red-bttn:hover{ background:#151414; border:1px solid #000;}
+.width1{width:268px;}
+.width1droplist{width:280px;}
+/************** Footer ***************/
+.footer{background:#000; padding:8px; text-align:center; color:#fff;}
+.footer a{color:#B0B0B0; margin:0px 5px;}
+.footer a:hover{color:#fff;}
+/***********Social Networking ******************/
+.socialnetwork-links{ width:300px; margin:10px auto;}
+.socialnetwork-links ul{ margin:0px; padding:0px;}
+.socialnetwork-links li{ float:left; padding:0px;}
+.transparent-logo a{
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7; margin:0px 1px;
+}
+.transparent-logo a:hover{
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+/**** Design Box *******/
+.designbox{margin-bottom:15px;}
+.designbox-content{ padding:5px;}
+
+/*************** Normal Box Style *****************/
+.box{margin-bottom:15px;}
+.boxheading{padding:6px; background:#000000 url(../img/box-header-bg.jpg) repeat-x; color:#fff; margin-bottom:15px; height:21px; }
+.boxheading-arrow{background:url(../img/box-header-arrow.png) no-repeat center; width:18px; height:20px; position:relative; top:8px; left:0px;}
+.boxheading h1{color:#fff; font-weight:bold;}
+
+/************* SELECT COUNTRY FOR JOBS STYLESHEET ********/
+.selectbycountry{margin-top:15px;}
+.selectbycountry-heading{font-size:22px; font-weight:bold; padding:10px 4px 10px 35px; background:url(img/explore-world.png) no-repeat left; width:350px; margin:0px auto;}
+.note-text{font-size:11px; color:#C70000;}

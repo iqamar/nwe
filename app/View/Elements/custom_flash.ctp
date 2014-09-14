@@ -1,0 +1,1 @@
+<script type="text/javascript">$(document).ready(function() { noty({text: '<?php echo h($message)?>',type: '<?php echo $params['noty_class']?>'}); });</script>

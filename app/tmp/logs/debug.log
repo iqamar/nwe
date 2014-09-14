@@ -1,0 +1,12 @@
+2014-06-26 12:20:01 Notice: Notice (8): Undefined variable: friend_arrays in [/var/www/html/app/Controller/AppController.php, line 283]
+Trace:
+AppController::getCurrentUserFriends() - APP/Controller/AppController.php, line 283
+AppController::beforeFilter() - APP/Controller/AppController.php, line 129
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE/Cake/Event/CakeEventManager.php, line 248
+Controller::startupProcess() - CORE/Cake/Controller/Controller.php, line 674
+ExceptionRenderer::_getController() - CORE/Cake/Error/ExceptionRenderer.php, line 157
+ExceptionRenderer::__construct() - CORE/Cake/Error/ExceptionRenderer.php, line 95
+ErrorHandler::handleException() - CORE/Cake/Error/ErrorHandler.php, line 121
+[main] - [internal], line ??
+
