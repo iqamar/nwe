@@ -1,0 +1,28 @@
+#:::::::::: msgid is used on view or controller or model, it remain same only msgstr value changes in default.po files::::::::::#
+
+msgid "site_title"
+msgstr "نتوركوي "
+
+msgid "lang_direction"
+msgstr "rtl"
+
+msgid "float_direction"
+msgstr "right"
+
+msgid "footerul"
+msgstr "680px"
+
+msgid "latest_jobs"
+msgstr "أحدث الوظائف"
+
+msgid "register"
+msgstr "تسجيل"
+
+msgid "login"
+msgstr "تسجيل الدخول"
+
+msgid "home"
+msgstr "منزل"
+
+msgid "welcome"
+msgstr "مرحبا"
