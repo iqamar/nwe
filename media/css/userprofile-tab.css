@@ -1,0 +1,42 @@
+.ui-tabs 							{ zoom: 1; }
+#tabs ul{width:165px; float:left;}
+.ui-tabs .ui-tabs-nav 				{ list-style: none;  padding:0px; overflow: hidden;  border: 1px solid #ccc; border-right:0px; border-bottom:0px;
+									  z-index: 1000; }
+.ui-tabs .ui-tabs-nav li 			{
+									  margin:0px; background: #636363; padding:0px;}
+
+.ui-tabs .ui-tabs-nav li img{ margin-right:3px;}
+
+.ui-tabs .ui-tabs-nav li a 			{ text-decoration: none; padding:8px 5px; color:#fff; width:155px; font-weight:bold; display:block; border-bottom:1px solid #FFF; border-right:0px;}
+.ui-tabs .ui-tabs-nav 
+li.ui-tabs-selected a			{background:#fff url(../img/profile-tab-arrow.png) no-repeat right;  border-bottom:0px solid #FFF; color:#c70000;}
+
+.ui-tabs .ui-tabs-nav 
+li.ui-tabs-selected a, .ui-tabs 
+.ui-tabs-nav li.ui-state-disabled a, 
+.ui-tabs .ui-tabs-nav 
+li.ui-state-processing a 			{ cursor: text; }
+.ui-tabs .ui-tabs-nav li a, 
+.ui-tabs.ui-tabs-collapsible 
+.ui-tabs-nav li.ui-tabs-selected a  { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+
+.ui-tabs .ui-tabs-panel 			{ padding: 10px 20px 40px 20px; float:right; width:483px; border-width: 0; background-color: #fff;
+    									border: 1px solid #e0e0e0; border-left:0px; position: relative; height:auto;}
+.ui-tabs .ui-tabs-hide 				{ display: none !important; }
+
+
+a.mover 							{ background: #c70000; padding: 6px 12px; position: absolute;
+								      color: white; font-weight: bold; text-decoration: none; 	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;}
+.next-tab 							{ left: 8px; bottom:3px; }
+.prev-tab 							{ bottom: 0; left: 0; -moz-border-radius-topright: 10px; -webkit-border-top-right-radius: 10px; }
+
+/* Before Login Pages Tabs Style ************/
+
+.beforlogin .ui-tabs-panel 			{ padding: 10px 20px 40px 20px; float:right; width:793px; border-width: 0; background-color: #EAEAEA;
+    									border: 1px solid #e0e0e0; border-left:0px; position: relative; height:auto;}
+
+.beforlogin .ui-tabs .ui-tabs-nav 
+li.ui-tabs-selected a			{background:#EAEAEA url(../img/profile-tab-arrow.png) no-repeat right;  border-bottom:0px solid #FFF; color:#c70000;}

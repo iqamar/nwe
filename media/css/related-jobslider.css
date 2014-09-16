@@ -1,0 +1,16 @@
+#jFlowSlide{ }
+#myController {  padding:2px 0;  width:290px; }
+#myController span.jFlowSelected { background:#c70000; padding:4px;}
+
+.slide-wrapper { width:287px;}
+.slide-thumbnail { width:287px; float:left; }
+.slide-thumbnail img {max-width:300px; }
+.slide-details { width:287px; float:right; margin-left:10px;}
+.slide-details h2 { font-size:1.5em; font-style: italic; font-weight:normal; line-height: 1; margin:0; }
+.slide-details .description { margin-top:10px; }
+.jFlowControl{ margin:5px 0 0 0; display:none; float:right;}
+.jFlowControl{float:right;}
+.jFlowControl, .jFlowPrev, .jFlowNext {color:#FFF;  cursor:pointer;}
+.jFlowNext{background:url(../img/job-slider-nxtbttn.png) no-repeat; width:28px; height:28px; display:block; float:right; margin-top:4px;}
+.jFlowPrev{background:url(../img/job-slider-prebttn.png) no-repeat; width:28px; height:28px; display:block; float:right; margin-top:4px;}
+.jFlowControl:hover, .jFlowPrev:hover, .jFlowNext:hover{}

@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+#topBar {
+    background: url("../img/top_bar_bg.jpg") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    height: 163px;
+}
+#photos {
+    height: 140px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+}
+#photos:hover a {
+    opacity: 0.5;
+}
+#photos a, #loadMore {
+    background-color: rgba(14, 14, 14, 0.3);
+    background-position: center center;
+    float: left;
+    height: 110px;
+    margin: 1px 1px 0 0;
+    overflow: hidden;
+    width: 145px;
+}
+#photos a:hover {
+    opacity: 1;
+}
+#loadMore {
+    cursor: pointer;
+    font-size: 10px;
+    line-height: 110px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#loadMore:hover {
+    color: #FFFFFF;
+    text-shadow: 0 0 4px #FFFFFF;
+}
+#camera {
+    background: url("../img/cam_bg.jpg") repeat-y scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #F0F0F0;
+    border-radius: 4px 4px 0 0;
+    bottom: -466px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+    height: 525px;
+    margin-left: 0;
+    position: fixed;
+    width: 503px;
+}
+.camTop {
+    background: url("../img/cam.png") no-repeat scroll 160px center rgba(0, 0, 0, 0);
+    color: #0060BF;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    height: 66px;
+    left: 0;
+    padding-top: 18px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+.settings {
+    background: url("../img/settings.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    height: 28px;
+    position: absolute;
+    right: 37px;
+    top: 448px;
+    width: 30px;
+}
+.settings:hover {
+    background-position: left bottom;
+}
+#screen {
+    background: none repeat scroll 0 0 #CCCCCC;
+    color: #666666;
+    height: 370px;
+    line-height: 360px;
+    margin: 66px auto 22px;
+    text-align: center;
+    width: 503px;
+}
+.buttonPane {
+    text-align: center;
+}
+.tooltip {
+    background: url("../img/img/tooltip.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 146px;
+    position: absolute;
+    right: 38px;
+    top: -140px;
+    width: 177px;
+}
+.blueButton, .greenButton {
+    background: url("../img/buttons.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #FFFFFF !important;
+    display: inline-block;
+    font-size: 16px;
+    height: 38px;
+    line-height: 32px;
+    margin: 0 4px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #277C9B;
+    width: 99px;
+}
+.greenButton {
+    background: url("../img/buttons.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    text-shadow: 1px 1px 1px #498917;
+}
+.blueButton:hover, .greenButton:hover {
+    background-position: left bottom;
+    text-decoration: none !important;
+}
+.greenButton:hover {
+    background-position: right bottom;
+}
+.blueButton:active, .greenButton:active {
+    bottom: -1px;
+    position: relative;
+}
+.hidden {
+    display: none;
+}
